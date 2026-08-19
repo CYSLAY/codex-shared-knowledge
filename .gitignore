@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+*.log
+knowledge/01_core/
+knowledge/inbox/
+knowledge/learning/CHANGELOG.md
+private/
+local/
+secrets/
+
