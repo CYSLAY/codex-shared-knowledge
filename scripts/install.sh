@@ -5,6 +5,19 @@ repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 codex_home="${CODEX_HOME:-$HOME/.codex}"
 agents_file="$codex_home/AGENTS.md"
 index_file="$repo_root/knowledge/INDEX.md"
+skill_source="$repo_root/skills/design-director"
+skill_target="$codex_home/skills/design-director"
+skill_marker="$skill_target/.codex-shared-knowledge-managed"
+
+if [[ ! -f "$skill_source/SKILL.md" ]]; then
+  echo "Design Director source is missing: $skill_source" >&2
+  exit 1
+fi
+
+if [[ -e "$skill_target" && ! -f "$skill_marker" ]]; then
+  echo "Refusing to overwrite an unmanaged Skill: $skill_target" >&2
+  exit 1
+fi
 
 mkdir -p "$codex_home"
 
@@ -45,3 +58,8 @@ agents_file.write_text(output, encoding="utf-8")
 print(f"Installed shared knowledge entry in {agents_file}")
 print(f"Index: {index_file}")
 PY
+
+mkdir -p "$skill_target"
+cp -R "$skill_source/SKILL.md" "$skill_source/agents" "$skill_source/references" "$skill_target/"
+printf '%s\n' "managed-by=codex-shared-knowledge" > "$skill_marker"
+echo "Installed Design Director Skill in $skill_target"

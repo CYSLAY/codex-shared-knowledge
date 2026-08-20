@@ -1,0 +1,6 @@
+interface:
+  display_name: "Design Director"
+  short_description: "Coordinate design skills around the best finished result"
+  default_prompt: "Use $design-director to define the target effect, assemble the right design skill chain, and validate the finished deliverable."
+policy:
+  allow_implicit_invocation: true

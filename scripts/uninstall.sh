@@ -3,6 +3,8 @@ set -euo pipefail
 
 codex_home="${CODEX_HOME:-$HOME/.codex}"
 agents_file="$codex_home/AGENTS.md"
+skill_target="$codex_home/skills/design-director"
+skill_marker="$skill_target/.codex-shared-knowledge-managed"
 
 python3 - "$agents_file" <<'PY'
 from pathlib import Path
@@ -31,3 +33,8 @@ output = (before.rstrip() + "\n\n" + after.lstrip()).strip()
 agents_file.write_text((output + "\n") if output else "", encoding="utf-8")
 print(f"Removed shared knowledge entry from {agents_file}")
 PY
+
+if [[ -f "$skill_marker" ]]; then
+  rm -rf "$skill_target"
+  echo "Removed managed Design Director Skill from $skill_target"
+fi
