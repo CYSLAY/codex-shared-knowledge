@@ -1,7 +1,7 @@
 ---
 type: topic
 tags: [codex, coding, yagni, ponytail, skill]
-updated_at: "2026-08-18"
+updated_at: "2026-08-20"
 ---
 
 # AI 编码的最小正确实现与过度工程门禁
@@ -28,6 +28,14 @@ updated_at: "2026-08-18"
 - 证据边界：官方代理基准平均为 LOC `-54%`、Tokens `-22%`、成本 `-20%`、时间 `-27%`；旧 `80%–94%` 是单轮代码量结果或个别任务上限，不能写成普遍 Token 降幅。
 - 当前状态：运行时检查当前机器是否安装 Ponytail；未安装时只应用决策原则，不声称调用 Skill。用户明确要求安装后再按官方插件流程审查 hooks 与 Node 依赖。
 
+## Superpowers 工作流使用判断
+
+- 官方仓库：<https://github.com/obra/superpowers>；它是由多个 Skill 组成的软件开发方法，不是单一调试工具。
+- 语义触发：新功能或跨文件改造先做 `brainstorming` 和 `writing-plans`；实现期间用 TDD；缺陷根因不明时用 `systematic-debugging`；结束前必须验证，不能用“应该修好了”代替证据。
+- 与“最小正确实现”的组合：先澄清必要性和验收，再拆小任务、写失败测试、用最小代码通过、重构和复核；极小改动按风险缩减流程。
+- 可用状态：接收者运行时检查当前机器实际存在的 Superpowers Skills 或插件。来源环境曾单独安装 `brainstorming`，该状态不会随知识库复制到接收者电脑，也不代表完整 Superpowers 工作流已安装。
+
 ## 来源
 
 - [Ponytail 代码最小化与“科研绘图 Skill”展示](../../douyin/7674610151802901172.md)
+- [Superpowers 怎么用？新手必装这 4 个 Skill](../../douyin/7643028787403263241.md)
