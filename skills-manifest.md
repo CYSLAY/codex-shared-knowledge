@@ -10,6 +10,8 @@
 | GSAP Skills | [仓库](https://github.com/greensock/gsap-skills) | 复杂时间线、滚动动画和框架集成 | 简单 CSS 动画不使用 |
 | Ponytail | [仓库](https://github.com/DietrichGebert/ponytail) | 审查过度工程、最小正确实现 | 不以减少代码为由删除安全和错误处理 |
 | Google Stitch MCP | [官方产品](https://stitch.withgoogle.com/) · [官方 MCP 列表](https://docs.cloud.google.com/mcp/supported-products) | PRD 到可视原型及设计资产交接 | 需要单独认证；密钥不得进入知识库 |
+| Superpowers | [仓库](https://github.com/obra/superpowers) | 需求澄清、计划、TDD、系统调试、评审与验证 | 按任务规模使用；安装单个 Skill 不等于完整工作流 |
+| Emil Kowalski Design Skills | [仓库](https://github.com/emilkowalski/skills) | 流体交互、动效实现与严格动效审查 | 优先按需选择 `apple-design`、`animate`、`review-animations`；运行时检查安装状态 |
+| Table GitHub Capability Router | [仓库](https://github.com/duoduoler-ops/Table-GitHub-Capability-Router) | 大型知识库和能力库的薄路由、状态与回滚管理 | 小型知识库无需额外引入；发现不等于安装或启用 |
 
 安装动作应由接收者在自己的 Codex 中明确授权。知识库可以判断何时使用，但不会自动信任或执行第三方代码。
-
