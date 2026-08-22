@@ -7,6 +7,7 @@
 | Design Director | 本仓库 `skills/design-director/` | 网站/UI、PPT、图片、视频和跨媒体设计能力编排 | 第一方 Skill；安装脚本自动部署，专项第三方 Skill 仍需分别核验 |
 | AnyDoc / `convert-documents-to-markdown` | [仓库](https://github.com/firecrawl/anydoc) · [SKILL.md](https://github.com/firecrawl/anydoc/blob/main/skills/convert-documents-to-markdown/SKILL.md) | 多种办公文档转 Markdown | 推荐按需安装；扫描 PDF 仍需 OCR |
 | PPT-Master | [仓库](https://github.com/hugohe3/ppt-master) · [SKILL.md](https://github.com/hugohe3/ppt-master/blob/main/skills/ppt-master/SKILL.md) | 可编辑 PPTX、模板填充、重构和增强 | 推荐按需安装；导出后必须验收 |
+| CyberPPT | [仓库](https://github.com/crazyykhllc-bit/CyberPPT) · [SKILL.md](https://github.com/crazyykhllc-bit/CyberPPT/blob/main/SKILL.md) | 高密度咨询式 PPT、证据链、SCR、蓝图和逐页混合还原 | 推荐仅在资料充分且需要咨询式工作流时按需安装；不适合低密度叙事型演示 |
 | Dashi PPT | [仓库](https://github.com/chuspeeism/dashi-ppt-skill) | HTML 编辑态与 PPTX/PDF 交付 | 只记录方法；先核对许可和浏览器依赖 |
 | GSAP Skills | [仓库](https://github.com/greensock/gsap-skills) | 复杂时间线、滚动动画和框架集成 | 简单 CSS 动画不使用 |
 | Ponytail | [仓库](https://github.com/DietrichGebert/ponytail) | 审查过度工程、最小正确实现 | 不以减少代码为由删除安全和错误处理 |

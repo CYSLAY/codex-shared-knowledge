@@ -1,7 +1,7 @@
 ---
 type: topic
 tags: [ai, presentations, pptx, editability, skill]
-updated_at: "2026-08-18"
+updated_at: "2026-08-23"
 ---
 
 # AI 演示文稿的可编辑性与职场验收
@@ -37,9 +37,22 @@ PPT-Master 的官方资料与 4.8.0 工作流已经过来源环境核验；在�
 
 Dashi PPT 官方仓库已经核验。它适合希望在浏览器控制台中修改布局、模块、图表、配色与页面重点，再导出 HTML/PDF/PPTX 的职场型场景；不适合逐像素自由定制。当前仓库要求 Node.js 20+，导出还需 Chrome/Chromium/Edge，并有 AGPL-3.0 与导出引擎专有许可边界。需要实际使用时，应先检查当前机器上 Dashi PPT 与 PPT-Master 的可用状态，再根据任务明确选择唯一工作流。
 
+## CyberPPT 使用判断
+
+- 官方仓库：<https://github.com/crazyykhllc-bit/CyberPPT>，MIT 许可。
+- 适用：资料和数据充足、要求高信息密度、结论先行、咨询式论证、可审计证据链与可编辑 PPTX 的行业研究、高管汇报、董事会材料、客户提案或项目复盘。
+- 不适用：低信息密度演讲、个人表达、纯叙事分享、只有观点而缺少来源材料，或任务无法承担逐阶段确认与逐页还原成本。
+- 核心路线：证据表与缺口 → 2–3 条故事线和 SCR → 逐页密度/组件计划 → 8 张风格样张 → 全套 ImageGen 蓝图 → 逐页混合还原 → PowerPoint 渲染、manifest 与 strict QA。
+- 可编辑性门：蓝图是视觉验收基准而不是最终背景；标题、正文、关键数字、简单图表、表格和 SO WHAT 默认应原生重建，复杂照片、Logo、插画或材质仅在必要时作为图片保留并登记影响。
+- 使用时应把“结构可编辑”和“视觉还原”作为同等硬门槛。批量一次性还原容易造成注意力和信息密度漂移，复杂曲线、图标、字体和换行仍需逐页检查。
+- 当前状态：官方 README 与 `SKILL.md` 已核验，来源机器未安装 `cyber-ppt`。接收者机器是否可调用必须重新检查；普通 PPT 任务可优先路由到本机已有能力，明确需要 CyberPPT 特有流程时再决定是否安装。
+
 ## 来源
 
 - [VibeCoding 大赏｜我做了一个 PPT Skill](../../douyin/7659682613023526186.md)
 - [PPT Skill 哪家强？PPT-Master 杀疯了！](../../douyin/7651656482626243892.md)
 - [PPT-Master 官方仓库](https://github.com/hugohe3/ppt-master)
 - [PPT-Master 官方 Skill](https://github.com/hugohe3/ppt-master/blob/main/skills/ppt-master/SKILL.md)
+- [CyberPPT：从数据材料到高密度可编辑咨询式 PPT](../../douyin/7664851387284897529.md)
+- [CyberPPT 官方仓库](https://github.com/crazyykhllc-bit/CyberPPT)
+- [CyberPPT 官方 Skill](https://github.com/crazyykhllc-bit/CyberPPT/blob/main/SKILL.md)
