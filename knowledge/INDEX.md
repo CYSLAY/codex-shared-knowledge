@@ -1,5 +1,5 @@
 ---
-updated_at: "2026-08-23"
+updated_at: "2026-08-24"
 scope: shared-sanitized
 ---
 
@@ -48,6 +48,7 @@ scope: shared-sanitized
 
 ## 最近更新
 
+- 2026-08-24：补充 CyberPPT 与 PPT-Master 的任务路由边界；共享知识库不宣称接收者的本机安装状态，调用前仍需重新核验。
 - 2026-08-23：新增 CyberPPT 完整来源、咨询式 PPT 的证据链—SCR—蓝图—逐页混合还原—PowerPoint/strict QA 方法，以及 2026-W34 周复盘；来源机器未安装该 Skill，接收者需按本机状态判断是否可调用。
 - 2026-08-20：新增效果优先的跨媒体设计协同框架和第一方 `design-director` Skill；按网站/UI、PPT、图片和视频工作组组合专项能力，并以一次成品验收完成闭环。
 - 2026-08-20：新增 Superpowers 软件开发工作流、Apple 流体交互与动画质量门、知识/能力薄路由三组方法；新增 3 条完整视频来源和 C-037 至 C-040 候选洞见。
