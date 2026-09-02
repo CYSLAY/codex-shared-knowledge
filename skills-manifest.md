@@ -5,6 +5,7 @@
 | 能力 | 官方来源 | 适用任务 | 当前仓库策略 |
 |---|---|---|---|
 | Design Director | 本仓库 `skills/design-director/` | 网站/UI、PPT、图片、视频和跨媒体设计能力编排 | 第一方 Skill；安装脚本自动部署，专项第三方 Skill 仍需分别核验 |
+| AnySearch | [官网](https://www.anysearch.com/) · [仓库](https://github.com/anysearch-ai/anysearch-skill) · [文档](https://www.anysearch.com/docs) | Agent 通用/垂直/批量搜索与网页正文提取 | 只记录方法，建议在搜索密集且现有能力不足时按需评估；敏感查询禁用，关键事实回到一手来源 |
 | AnyDoc / `convert-documents-to-markdown` | [仓库](https://github.com/firecrawl/anydoc) · [SKILL.md](https://github.com/firecrawl/anydoc/blob/main/skills/convert-documents-to-markdown/SKILL.md) | 多种办公文档转 Markdown | 推荐按需安装；扫描 PDF 仍需 OCR |
 | PPT-Master | [仓库](https://github.com/hugohe3/ppt-master) · [SKILL.md](https://github.com/hugohe3/ppt-master/blob/main/skills/ppt-master/SKILL.md) | 可编辑 PPTX、模板填充、重构和增强 | 推荐按需安装；导出后必须验收 |
 | CyberPPT | [仓库](https://github.com/crazyykhllc-bit/CyberPPT) · [SKILL.md](https://github.com/crazyykhllc-bit/CyberPPT/blob/main/SKILL.md) | 高密度咨询式 PPT、证据链、SCR、蓝图和逐页混合还原 | 推荐仅在资料充分且需要咨询式工作流时按需安装；不适合低密度叙事型演示 |
