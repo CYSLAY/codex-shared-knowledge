@@ -1,5 +1,5 @@
 ---
-updated_at: "2026-09-03"
+updated_at: "2026-09-04"
 scope: shared-sanitized
 ---
 
@@ -12,6 +12,7 @@ scope: shared-sanitized
 - [Agent 搜索基础设施与证据路由](02_active/topics/agent-search-infrastructure.md)
 - [Codex 知识工作流与外部记忆](02_active/topics/codex-knowledge-workflows.md)
 - [AI 设计语言与 Skill 化](02_active/topics/ai-design-skills.md)
+- [一页式可视化解释与 ELI5](02_active/topics/visual-explanation-patterns.md)
 - [AI 编码的最小正确实现与过度工程门禁](02_active/topics/ai-coding-minimalism.md)
 - [AI 科研绘图的可编辑性与证据边界](02_active/topics/ai-research-visualization.md)
 - [多格式文档转 Markdown 与知识摄取](02_active/topics/document-to-markdown-ingestion.md)
@@ -49,6 +50,7 @@ scope: shared-sanitized
 
 ## 最近更新
 
+- 2026-09-04：新增 Awesome DESIGN.md、六种旅行照片海报风格与 ELI5 图文三条完整来源；新增 C-044 至 C-046，更新 AI 设计主题并建立一页式可视化解释主题。`awesome-design-md` 是参考资料库，ELI5 是未取得官方身份的自定义草案；接收者应按本机可用状态选择或创建能力。
 - 2026-09-03：新增 AnySearch 完整来源、Agent 搜索基础设施与证据路由，以及 C-042、C-043；记录通用/垂直/批量搜索、Skill/MCP/API、正文提取、敏感查询和一手来源复核边界。
 - 2026-08-24：补充 CyberPPT 与 PPT-Master 的任务路由边界；共享知识库不宣称接收者的本机安装状态，调用前仍需重新核验。
 - 2026-08-23：新增 CyberPPT 完整来源、咨询式 PPT 的证据链—SCR—蓝图—逐页混合还原—PowerPoint/strict QA 方法，以及 2026-W34 周复盘；来源机器未安装该 Skill，接收者需按本机状态判断是否可调用。
